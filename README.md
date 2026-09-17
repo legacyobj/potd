@@ -1,2 +1,29 @@
 # potd
-A standalone HTCPCP server in C implementing RFC 2324 and RFC 7168.
+
+A standalone implementation of the Hyper Text Coffee Pot Control Protocol written in C.
+
+`potd` implements RFC 2324 (HTCPCP/1.0) and RFC 7168 (HTCPCP-TEA).
+
+## Build
+
+```
+make
+```
+
+## Usage
+
+```
+./potd
+```
+
+See `./potd -h` for available options.
+
+## References
+
+RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)
+
+RFC 7168 - HTCPCP-TEA
+
+## License
+
+See `LICENSE`.
