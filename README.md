@@ -18,6 +18,16 @@ make
 
 See `./potd -h` for available options.
 
+## Usage (Client)
+
+```
+python3 potctl.py 127.0.0.1 -p 8080
+```
+
+See `python3 potctl.py -h` for available options.
+
+![potctl](potctl.py.png)
+
 ## References
 
 RFC 2324 - Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)
