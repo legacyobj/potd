@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Local builds, documentation, and tests
+build/
+docs/
+test/
+tests/
+__pycache__/
+.DS_Store
